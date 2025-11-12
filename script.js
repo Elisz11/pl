@@ -29,7 +29,7 @@ document.querySelectorAll('.question').forEach(qDiv => {
                 if (nextDiv) {
                     nextDiv.style.display = "block";
                 } else {
-                    alert("Wygrałeś/aś!");
+                    alert("8");
                 }
             } else {
                 location.reload();
