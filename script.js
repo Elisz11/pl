@@ -29,7 +29,7 @@ document.querySelectorAll('.question').forEach(qDiv => {
                 if (nextDiv) {
                     nextDiv.style.display = "block";
                 } else {
-                    alert("8");
+                    alert("Ostatnia cyfra szyfru to 8");
                 }
             } else {
                 location.reload();
